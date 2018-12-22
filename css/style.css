@@ -42,19 +42,20 @@
 
 body {
 	text-align: center;
-	color: ##6c757d;
+	/* color: #6c757d; */
 }
 
 .lead {
 	margin-top: -350px;
 	font-weight: bold;
-	font-size: 1.5rem;
+	font-size: 2rem;
+	font-style: oblique;
 }
 
 a {
-	color: #2200ff;
+	color: #0E4C89;
 }
 
 a:visited {
-	color: #2200ff;
+	color: #0E4C89;
 }
