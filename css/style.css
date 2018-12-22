@@ -46,9 +46,8 @@ body {
 }
 
 .lead {
-	margin-top: -350px;
+	/* margin-top: -350px; */
 	font-weight: bold;
-	font-size: 2rem;
 	font-style: oblique;
 }
 
@@ -58,4 +57,25 @@ a {
 
 a:visited {
 	color: #0E4C89;
+}
+
+.container-facade {
+	position: relative;
+	text-align: center;
+}
+
+.facade-centered-first {
+	position: absolute;
+	top: 15%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 2.5vw;
+}
+
+.facade-centered-second {
+	position: absolute;
+	top: 25%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 1.2vw;
 }
