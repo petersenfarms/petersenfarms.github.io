@@ -40,3 +40,11 @@ body {
 .lead {
 	margin-top: -350px;
 }
+
+a {
+	color: #2200ff;
+}
+
+a:visited {
+	color: #2200ff;
+}
